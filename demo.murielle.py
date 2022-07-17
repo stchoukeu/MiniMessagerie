@@ -1,7 +1,10 @@
-import requests
+import matplotlib.pyplot as plt
 
-# affichage du numero cvs du site
-r = requests.get('http://www.example.com')
-print(r.status_code)
+import numpy as np
 
-# le résultat attendu est "200"
+
+plt.figure()
+
+plt.plot([1, 2, 3, 4, 5], [10, 20, 30, 40, 50])
+
+plt.show()
