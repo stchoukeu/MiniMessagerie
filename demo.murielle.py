@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
-
 import numpy as np
+#il est important d'importer les packages s'ils ne sont pas reconnu
 
 # tracé d'une courbe
 plt.figure()
