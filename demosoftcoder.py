@@ -3,7 +3,7 @@
 class Student:
     '''Class student'''
     # Global variable
-    university = "UY1"
+    university = "UY1-University of Yaounde 1"
 
     def __init__(self, name, matricule, age = 0) -> None:
         '''Initialise un etudiant'''
@@ -17,5 +17,6 @@ class Student:
     @classmethod
     def afficherUniversite(cls, other):
         print ('Etudiant', other.name, 'est de universite de', cls.university)
+
 
 
